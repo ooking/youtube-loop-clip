@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Others
+*.bak
+*.tmp
