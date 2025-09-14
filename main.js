@@ -18,6 +18,8 @@
 // @exclude      *://accounts.youtube.com/*
 // @exclude      *://www.youtube.com/live_chat_replay*
 // @exclude      *://www.youtube.com/persist_identity*
+// @grant        GM_setValue
+// @grant        GM_getValue
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABm0lEQVR4AdSWAZaCIBRFaTY2tbJsZTUra979iqECYqLWHJ4IfP67cMLhxx38NwF4Onfu1KiurfN4vQMAGd4V4HXVe23dOw+lbksP0A1MCNuwqk92mEVaUgOQOcbIOnd4AGF+BiBDa6jevXiA3Y1laIs+EkAMzn0FwEOoN+kS6uTcaSznnI8h3kvd6TK3AzeZXKRGeoSKpQzGiTcpDihV8ZIDwLCJTyvvBUrR7KKqackB/E3DXz36dqyGI1sOgPGoZM4Ruqp+SiUgycW8BTCiAqQEYjStbdYAIBMQ7AY7Q7tYtQAwTP7QGEypFoA/rosh1gJgaN+J1Arn+nMAvzOTl6w6mSsHkPTn4yK9/csPE+cA+ktDOGHpe/edSJ6OHABe3OHCi2kSSkY2FtTM4+rFvZJcUc0BMIkEXiQEijM/kAJtLKiZk1y54qyUAFjgVo+PAeA8b7XIbN4jd8AWbQA60zRQlrbiIJcd8zMAEguCq5N10t5QmONlFj0ArQ6CQX+hrFmTl/8b1NiZBgD0CAJCu1DqfXUd5CDvZIf/AQAA//8BTt4CAAAABklEQVQDALNfokFDr0z6AAAAAElFTkSuQmCC
 // @license      MPL-2.0
 // ==/UserScript==
