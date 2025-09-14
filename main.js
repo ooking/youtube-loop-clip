@@ -6,7 +6,7 @@
 // @name:ja      YouTubeループクリップ
 // @name:ko      유튜브 루프 클립
 // @namespace    https://github.com/ooking/youtube-loop-clip
-// @version      1.0.1
+// @version      1.0.2
 // @description  在YouTube视频时间轴上选择片段并循环播放，支持无限循环和刷新页面后设置不丢失
 // @description:zh-CN 在YouTube视频时间轴上选择片段并循环播放，支持无限循环和刷新页面后设置不丢失
 // @description:zh-TW 在YouTube影片時間軸上選擇片段並循環播放，支援無限循環且刷新頁面後設定不丟失
@@ -14,7 +14,10 @@
 // @description:ja    YouTubeのタイムラインでクリップを選択してループ再生、無限ループとリフレッシュ後も設定保持
 // @description:ko    유튜브 타임라인에서 클립을 선택해 반복 재생, 무한 반복 및 새로고침 후에도 설정 유지
 // @author       King Chan (chenwenj@gmail.com)
-// @match        https://www.youtube.com/*
+// @include      *://*.youtube.com/**
+// @exclude      *://accounts.youtube.com/*
+// @exclude      *://www.youtube.com/live_chat_replay*
+// @exclude      *://www.youtube.com/persist_identity*
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABm0lEQVR4AdSWAZaCIBRFaTY2tbJsZTUra979iqECYqLWHJ4IfP67cMLhxx38NwF4Onfu1KiurfN4vQMAGd4V4HXVe23dOw+lbksP0A1MCNuwqk92mEVaUgOQOcbIOnd4AGF+BiBDa6jevXiA3Y1laIs+EkAMzn0FwEOoN+kS6uTcaSznnI8h3kvd6TK3AzeZXKRGeoSKpQzGiTcpDihV8ZIDwLCJTyvvBUrR7KKqackB/E3DXz36dqyGI1sOgPGoZM4Ruqp+SiUgycW8BTCiAqQEYjStbdYAIBMQ7AY7Q7tYtQAwTP7QGEypFoA/rosh1gJgaN+J1Arn+nMAvzOTl6w6mSsHkPTn4yK9/csPE+cA+ktDOGHpe/edSJ6OHABe3OHCi2kSSkY2FtTM4+rFvZJcUc0BMIkEXiQEijM/kAJtLKiZk1y54qyUAFjgVo+PAeA8b7XIbN4jd8AWbQA60zRQlrbiIJcd8zMAEguCq5N10t5QmONlFj0ArQ6CQX+hrFmTl/8b1NiZBgD0CAJCu1DqfXUd5CDvZIf/AQAA//8BTt4CAAAABklEQVQDALNfokFDr0z6AAAAAElFTkSuQmCC
 // @license      MPL-2.0
 // ==/UserScript==
