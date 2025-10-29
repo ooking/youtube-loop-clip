@@ -97,8 +97,8 @@
   function createLoopButton(onClick) {
     const btn = document.createElement('button');
     btn.textContent = 'LoopClip';
-    btn.style.margin = '10px 4px';
-    btn.style.padding = '2px 10px';
+    btn.style.margin = 'auto 4px';
+    btn.style.padding = '0 10px';
     btn.style.fontSize = '13px';
     btn.style.zIndex = '9999';
     btn.style.background = '#ffe066';
