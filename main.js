@@ -6,7 +6,7 @@
 // @name:ja      YouTubeループクリップ
 // @name:ko      유튜브 루프 클립
 // @namespace    https://github.com/ooking/youtube-loop-clip
-// @version      1.0.3
+// @version      1.0.4
 // @description  在YouTube视频时间轴上选择片段并循环播放，支持无限循环和刷新页面后设置不丢失
 // @description:zh-CN 在YouTube视频时间轴上选择片段并循环播放，支持无限循环和刷新页面后设置不丢失
 // @description:zh-TW 在YouTube影片時間軸上選擇片段並循環播放，支援無限循環且刷新頁面後設定不丟失
